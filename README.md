@@ -5,7 +5,7 @@ Reeses Pieces is a collaborative Compose UI library made by myself and other dev
 
 ## Custom Composables
 ### GradientProgressBar
-Progress bar that allows you to provide in a color gradient for the progress bar. Just set a height, background color, foreground color, and a percentage:
+Progress bar that allows you to provide in a color gradient for the progress bar. Just set a height, background color, foreground color, and a percentage (0-100):
 
 ```Kotlin
         Card(
