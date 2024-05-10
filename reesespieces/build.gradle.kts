@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "io.github.mrpieces.reesespieces"
+    namespace = "com.github.mrpieces.reesespieces"
     compileSdk = 34
 
     defaultConfig {
@@ -64,9 +64,9 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 from(components.findByName("release"))
 
-                groupId = "io.github.mrpieces"
+                groupId = "com.github.mrpieces"
                 artifactId = "ReesesPieces"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }

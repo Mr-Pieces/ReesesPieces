@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "io.github.mrpieces.reesespieces"
+    namespace = "com.github.mrpieces.reesespieces"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "io.github.mrpieces.reesespieces"
+        applicationId = "com.github.mrpieces.reesespieces"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
