@@ -51,5 +51,5 @@ Then in your app build gradle, include the implementation:
 ```Kotlin
 dependencies {
 	        implementation("com.github.Mr-Pieces:ReesesPieces:Tag")
-	}
+}
 ```
