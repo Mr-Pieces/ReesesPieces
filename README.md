@@ -53,6 +53,3 @@ dependencies {
 	        implementation("com.github.Mr-Pieces:ReesesPieces:Tag")
 	}
 ```
-
-
-[![](https://jitpack.io/v/Mr-Pieces/ReesesPieces.svg)](https://jitpack.io/#Mr-Pieces/ReesesPieces)
