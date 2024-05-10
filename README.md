@@ -11,16 +11,16 @@ Progress bar that allows you to provide in a color gradient for the progress bar
         Card(
             modifier = Modifier
                 .height(30.dp),
-            shape = shapes.extraSmall,
-            border = BorderStroke(1.dp, color = progressOutline)
+            shape = RoundedCornerShape(4.dp),
+            border = BorderStroke(1.dp, color = Color(0xFFE1E1E1))
         ) {
             GradientProgressBar(
                 Modifier.fillMaxHeight(),
                 backgroundColor = Color.White,
                 foregroundColor = Brush.horizontalGradient(
                     listOf(
-                        MaterialTheme.colorScheme.secondary,
-                        gradientBlue
+                        Color(0xFF34BBDB),
+                        Color(0xFF3DDAFF)
                     )
                 ),
                 percent = percentage
